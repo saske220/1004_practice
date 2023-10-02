@@ -1,9 +1,201 @@
 @charset "utf-8";
 
+
+.body {
+    color: #1E1E1E;
+    font-family: 'Times New Roman', Times, serif;
+}
+
 .inner {
     width: 76%;
     margin-right: auto;
     margin-left: auto;
 }
 
-@media (max-width 740px) {}
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: bottom;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    text-align: center;
+    font-weight: bold;
+    padding: 40px;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.main-top2 {
+    background: url(./images/bg_main.png)no-repeat center center/cover;
+    padding-top: 240px;
+    padding-bottom: 80px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.main-top {
+    background-color: #fff;
+    padding: 40px;
+    margin-left: 0;
+    margin-right: 50%;
+    text-align: center;
+}
+
+.main-top p {
+    padding-bottom: 30px;
+    font-size: 18px;
+}
+
+.main-top h3 {
+    font-size: 36px;
+    text-align: left;
+    word-break: keep-all;
+}
+
+.DISCUSSION {
+    margin: 100px 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.DISCUSSION h2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: normal;
+
+}
+
+.DISCUSSION h2::before {
+    content: "KUMONが向き合うもの";
+    display: block;
+    background-color: #72C9F3;
+    padding: 8px 15px;
+    color: #FFFFFF;
+    font-size: 14px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+}
+
+.DISCUSSION h2::after {
+    content: "";
+    display: block;
+    width: 80px;
+    border-bottom: #1E1E1E solid;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+}
+
+.DISCUSSION a {
+    font-size: 12px;
+    letter-spacing: 0.05em;
+    background-color: #F5F5F5;
+    padding: 6px;
+    margin-right: 10px;
+    margin-top: 20px;
+    color: #1E1E1E;
+}
+
+.DISCUSSION article {
+    width: 100%;
+    padding: 50px 0;
+}
+
+.back-image1 {
+    padding-top: 191px;
+    padding-bottom: 20px;
+    background: url(./images/pic_discussion01.png)no-repeat;
+}
+
+.fst {
+    font-size: 14px;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    color: #fff;
+    letter-spacing: 0.05em;
+    font-weight: lighter;
+    margin-left: 20px;
+    margin-right: 50px;
+}
+
+.back-image2 {
+    padding-top: 191px;
+    padding-bottom: 20px;
+    background: url(./images/pic_discussion02.png)no-repeat;
+}
+
+.box-flex {
+    display: flex;
+}
+
+footer {
+    background-color: #1E1E1E;
+    color: #FFFFFF;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.footer-inner {
+    width: 436px;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 14px;
+    padding: 100px 0;
+}
+
+h5 {
+    margin: 0 0;
+    padding-left: 25px;
+}
+
+.footer-inner p {
+    margin-left: 50px;
+}
+
+.footer-flex {
+    display: flex;
+    padding: 20px 0;
+    border-bottom: 1px solid #fff;
+}
+
+.footer-flex2 {
+    display: flex;
+    padding: 20px 0;
+}
+
+footer .inner {
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+@media (min-width:740px) {
+
+
+    .inner {
+        width: 86%;
+    }
+
+    .main-top {
+        margin-right: 60%;
+    }
+
+
+
+    .DISCUSSION-flex {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .DISCUSSION article {
+        width: 46.8%;
+    }
+}
